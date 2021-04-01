@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian">
+  <Time timestep="0"/>
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="24" NumberOfCells="23">
+      <Points>
+        <DataArray type="Float32" NumberOfComponents="3" format="binary">
+IAEAACqpA7+vlGU+AAAAAERprz773JNBz/cHQNPewECWIQ5CtFk5wGreDUHheo1C6bc3QJLLiUDNzO1CIv0FQbraTkA9yihDmO6NQS9uHUGRbVdDnDPOQTCbiELjJZpDGQQ5wTarZ0GJ4WRD/zLWQUBTTUKFm6VDb5JsQrgelsGynZVDvUOWQnKKhj8nkVhD/mW/QdZWzMACq5JDJUYIwg5tTcKP4pJDmlkcQngcLsKWg9JCM4QeQvLQkcIvvRFDrBzQQeC+sEH7C3xCZ0QSwg8LgkJe+v1C+fFmwsRCd0K15qNCzezEwtGR8sAgIwNCsAOhQWDlXMH5D69C7EAvQgkbnrx3LVlCHtYyQgqXI0LDddJCJcZ8QntUR0JB4sZC9UqHQg==
+        </DataArray>
+      </Points>
+      <Cells>
+        <DataArray type="Int32" Name="connectivity" format="binary">
+uAAAAAAAAAABAAAAAQAAAAIAAAACAAAAAwAAAAMAAAAEAAAABAAAAAUAAAAFAAAABgAAAAYAAAAHAAAABgAAAAgAAAAIAAAACQAAAAgAAAAKAAAABQAAAAsAAAALAAAADAAAAAsAAAANAAAABAAAAA4AAAADAAAADwAAAAIAAAAQAAAAEAAAABEAAAAQAAAAEgAAAAEAAAATAAAAEwAAABQAAAATAAAAFQAAABUAAAAWAAAAFQAAABcAAAA=
+        </DataArray>
+        <DataArray type="Int32" Name="offsets" format="binary">
+XAAAAAIAAAAEAAAABgAAAAgAAAAKAAAADAAAAA4AAAAQAAAAEgAAABQAAAAWAAAAGAAAABoAAAAcAAAAHgAAACAAAAAiAAAAJAAAACYAAAAoAAAAKgAAACwAAAAuAAAA
+        </DataArray>
+        <DataArray type="Int8" Name="types" format="binary">
+FwAAAAMDAwMDAwMDAwMDAwMDAwMDAwMDAwMD
+        </DataArray>
+      </Cells>
+      <PointData>
+        <DataArray type="Float32" Name="Vm" NumberOfComponents="1" format="binary">
+YAAAAJT2hr2U9oa9lPaGvSfChr0nwoa9J8KGvbmNhr1LWYa9uY2GvUtZhr1LWYa9uY2GvUtZhr25jYa9J8KGvSfChr0nwoa9J8KGvSfChr2U9oa9J8KGvSfChr0nwoa9J8KGvQ==
+        </DataArray>
+      </PointData>
+    </Piece>
+  </UnstructuredGrid>
+</VTKFile>
