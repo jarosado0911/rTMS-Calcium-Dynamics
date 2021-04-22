@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<VTKFile type="UnstructuredGrid" version="0.1" byte_order="LittleEndian">
+  <Time timestep="0.00075"/>
+  <UnstructuredGrid>
+    <Piece NumberOfPoints="6" NumberOfCells="5">
+      <Points>
+        <DataArray type="Float32" NumberOfComponents="3" format="ascii">
+-0.8015 -1.2678 0 -3.2062 -5.0715 0 -5.0765 -8.0299 0 -6.4123 -10.1429 0.0262 -8.0143 -12.677 0.1283 -8.8146 -13.9429 0.1666 
+        </DataArray>
+      </Points>
+      <Cells>
+        <DataArray type="Int32" Name="connectivity" format="ascii">
+0 1 1 2 2 3 3 4 4 5 
+        </DataArray>
+        <DataArray type="Int32" Name="offsets" format="ascii">
+2 4 6 8 10 
+        </DataArray>
+        <DataArray type="Int8" Name="types" format="ascii">
+3 3 3 3 3 
+        </DataArray>
+      </Cells>
+      <PointData>
+        <DataArray type="Float32" Name="calcium" NumberOfComponents="1" format="ascii">
+5e-08 5e-08 5e-08 5e-08 5e-08 5e-08 
+        </DataArray>
+      </PointData>
+    </Piece>
+  </UnstructuredGrid>
+</VTKFile>
