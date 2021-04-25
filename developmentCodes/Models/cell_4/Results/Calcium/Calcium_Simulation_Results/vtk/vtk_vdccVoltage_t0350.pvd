@@ -1,9 +1,0 @@
-<?xml version="1.0"?>
-<VTKFile type="Collection" version="0.1">
-  <Collection>
-  <DataSet timestep="0.0035000000000000022" part="0" file="vtk_vdccVoltage_s0_t0350.vtu"/>
-  <DataSet timestep="0.0035000000000000022" part="1" file="vtk_vdccVoltage_s1_t0350.vtu"/>
-  <DataSet timestep="0.0035000000000000022" part="2" file="vtk_vdccVoltage_s2_t0350.vtu"/>
-  <DataSet timestep="0.0035000000000000022" part="3" file="vtk_vdccVoltage_s3_t0350.vtu"/>
-  </Collection>
-</VTKFile>
