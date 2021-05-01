@@ -493,11 +493,13 @@ local 	fcnt = 1
 local   mapper = Mapper()
 local   voltageDataFile 
 function membranePotential(x,y,z, t, si)
+    timenum = t/ vSampleRate
+    --print("time num = " .. timenum)
     if t > latestPointInTime then
     	if t < fcnt*vSampleRate then
-        	voltageDataFile = tostring(vmData) .. "/vm_" .. string.format("%07d", math.floor(fcnt-1)) .. ".dat"
+        	voltageDataFile = tostring(vmData) .. "/vm_" .. string.format("%07d", math.floor(timenum)) .. ".dat"
 	else
-		voltageDataFile = tostring(vmData) .. "/vm_" .. string.format("%07d", math.floor(fcnt-1)) .. ".dat" 	
+		voltageDataFile = tostring(vmData) .. "/vm_" .. string.format("%07d", math.floor(timenum)) .. ".dat" 	
 	    	fcnt=fcnt + 1
 	end
 
